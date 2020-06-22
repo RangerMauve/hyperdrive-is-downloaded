@@ -1,0 +1,30 @@
+{
+  "name": "hyperdrive-is-downloaded",
+  "version": "1.0.0",
+  "description": "Check if a hyperdrive has downloaded a given file locally.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/hyperdrive-is-downloaded.git"
+  },
+  "keywords": [
+    "hyperdrive",
+    "dat",
+    "download",
+    "local"
+  ],
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/hyperdrive-is-downloaded/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/hyperdrive-is-downloaded#readme",
+  "devDependencies": {
+    "hyperdrive": "^10.13.0",
+    "random-access-memory": "^3.1.1",
+    "tape": "^5.0.1"
+  }
+}
